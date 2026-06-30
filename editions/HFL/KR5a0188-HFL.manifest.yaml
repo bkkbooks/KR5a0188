@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5a0188/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0188/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太清五十八願文
+  date: '2015-08-28 23:40:13.440149'
+  source:
+    repository: kanripo
+    path: KR5a0188
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0188_000-HFL.yaml, hash: 'sha256:80a61d4012881fa8490495aee89a48eda6251247aca06aa76b74eab6184e3b97'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0188_000-HFL.markers.yaml, hash: 'sha256:f8e762be3123be36008398e96bec458a79379db99a053f8e0bcad0f065042c81'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0188_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 1050
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:ca01683f58411acf01d14420c4cfb5a6b16b24814c19caa73855311c2c3047fd
